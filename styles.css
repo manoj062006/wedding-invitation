@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffaf0;
+    color: #5a3e36;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #8b0000;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.qrcode {
+    margin-top: 10px;
+}
+
+#countdown div {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5deb3;
+    display: inline-block;
+    border-radius: 5px;
+}
