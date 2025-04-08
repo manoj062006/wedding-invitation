@@ -1,10 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Lora', serif;
   background: #fff8f2;
-  color: #4a2f27;
+  color: #5a2a27;
   scroll-behavior: smooth;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&display=swap');
 
 .animated-section {
   opacity: 0;
@@ -31,8 +33,10 @@ body {
 
 .hero-text {
   text-align: center;
-  color: #8c4a3c;
+  color: #a47449;
   padding: 2rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
 }
 
 section {
@@ -41,9 +45,10 @@ section {
 }
 
 h2 {
-  font-size: 2rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #8c4a3c;
+  color: #a47449;
 }
 
 .event {
@@ -52,6 +57,13 @@ h2 {
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  font-family: 'Lora', serif;
+}
+
+.event ul {
+  list-style: none;
+  padding: 0;
+  color: #5a2a27;
 }
 
 .gallery {
@@ -73,6 +85,7 @@ footer {
   text-align: center;
   padding: 1rem;
   font-style: italic;
+  color: #5a2a27;
 }
 
 .qr-code {
@@ -97,4 +110,6 @@ footer {
   animation: petals 10s linear infinite;
   pointer-events: none;
   z-index: 1;
+  font-size: 1.5rem;
+  color: #d69ca2;
 }
